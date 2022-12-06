@@ -1,0 +1,28 @@
+*{ 
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  }
+.container{
+           margin:auto;
+           width:90%;	
+		   }
+.sec{
+     margin-top:30px;
+	 background-color:#f5f7f7;
+}
+.row{
+     display:flex;
+}
+img{
+	 max-width:50%;
+}
+.col{
+     padding:30px;
+     filter:grayscale(100%);
+}
+.col:hover{
+           filter:grayscale(1%);
+		   transform:scale(1.2,1.2);
+           transition:all 1s;
+}		   
